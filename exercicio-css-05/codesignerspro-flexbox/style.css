@@ -9,10 +9,10 @@
   margin: 60px auto;
   background-color: #8a00cf;
   border-radius: 8px;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  align-content: flex-start;
+  align-content: center;
 }
 
 .my-item {
@@ -21,7 +21,6 @@
   border-radius: 8px;
   padding: 30px;
   border: 4px solid #fff;
-  flex-basis: 10%;
 }
 
 .order-1 {
@@ -38,4 +37,56 @@
 
 .order-4 {
   order: 4;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-5 {
+  flex-grow: 5;
+}
+
+.shrink-1 {
+  flex-shrink: 1;
+}
+
+.shrink-2 {
+  flex-shrink: 2;
+}
+
+.shrink-5 {
+  flex-shrink: 5;
+}
+
+.flex-grow-3 {
+  flex: 3 2 auto;
+}
+
+.flex-grow-5 {
+  flex: 5 1 800px;
+}
+
+.flex-shrink-3 {
+  flex: 0 3 1500px;
+}
+
+.flex-shrink-5 {
+  flex: 2 5 800px;
+}
+
+.self-top {
+  align-self: flex-start;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-bottom {
+  align-self: flex-end;
 }
